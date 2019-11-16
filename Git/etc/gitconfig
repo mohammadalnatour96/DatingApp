@@ -1,0 +1,11 @@
+[http]
+	sslCAInfo = C:/Users/moham/DatingApp/Git/mingw64/ssl/certs/ca-bundle.crt
+	sslBackend = openssl
+[diff "astextplain"]
+	textconv = astextplain
+[core]
+	autocrlf = true
+	fscache = true
+	symlinks = false
+[credential]
+	helper = manager
